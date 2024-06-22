@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RadioGroup } from '@headlessui/react';
+import '../App.css';
 
 const PaymentForm = () => {
   const [name, setName] = useState('');

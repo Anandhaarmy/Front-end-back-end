@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import logo from "../assets/logo.png";
+import '../App.css';
 
 const AdminRegister = () => {
   const [formData, setFormData] = useState({

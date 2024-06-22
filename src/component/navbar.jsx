@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logoimg from "../assets/logo.png";
+import '../App.css';
 
 const Dialog = ({ isOpen, onClose }) => {
   if (!isOpen) return null;

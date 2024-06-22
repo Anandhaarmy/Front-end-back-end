@@ -2,6 +2,8 @@ import React from "react";
 import image1 from "../assets/image1.jpeg";
 import image2 from "../assets/image2.jpeg";
 import heroImage from "../assets/hero.jpeg";
+import '../App.css';
+
 const WelcomePage = () => {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -19,12 +21,12 @@ const WelcomePage = () => {
               <img
                 src={image1}
                 alt="Image 1"
-                className="w-20 h-20 rounded-lg shadow-lg mb-4 md:mb-0"
+                className="w-60 h-60 rounded-lg shadow-lg mb-4 md:mb-0" // Increased size to 40x40
               />
               <img
                 src={image2}
                 alt="Image 2"
-                className="w-20 h-20 rounded-lg shadow-lg"
+                className="w-60 h-60 rounded-lg shadow-lg" // Increased size to 40x40
               />
             </div>
           </div>

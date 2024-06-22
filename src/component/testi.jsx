@@ -2,6 +2,7 @@ import React from "react";
 import user1 from "../assets/orang.jpg"; // Ganti dengan path gambar yang sebenarnya
 import user2 from "../assets/orang.jpg";
 import user3 from "../assets/orang.jpg";
+import '../App.css';
 
 const reviews = [
   {

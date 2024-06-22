@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Modal from "../Modal";
 import { useAuth } from "../AuthContext";
+import '../App.css';
 
 const Page = () => {
   const { id } = useParams();

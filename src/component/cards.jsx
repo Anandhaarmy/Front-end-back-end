@@ -3,6 +3,7 @@ import axios from "axios";
 import ProductCard from "./productcard";
 import { Link } from "react-router-dom";
 import { Button } from "@headlessui/react";
+import '../App.css';
 
 const getRandomProducts = (products, count) => {
   const shuffled = products.sort(() => 0.5 - Math.random());

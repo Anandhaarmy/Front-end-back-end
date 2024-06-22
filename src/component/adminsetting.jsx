@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Input } from "@headlessui/react";
+import '../App.css';
 
 const AdminAccountSettings = () => {
   const [formData, setFormData] = useState({

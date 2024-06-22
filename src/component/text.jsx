@@ -3,6 +3,7 @@ import mainImage from "../assets/main-image.jpeg";
 import smallImage1 from "../assets/small-image1.jpeg";
 import smallImage2 from "../assets/small-image2.jpeg";
 import smallImage3 from "../assets/small-image3.jpeg";
+import '../App.css';
 
 const Welcome = () => {
   return (

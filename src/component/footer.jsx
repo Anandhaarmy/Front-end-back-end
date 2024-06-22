@@ -11,6 +11,7 @@ import instagramIcon from "../assets/instagram-icon.png";
 import linkedinIcon from "../assets/likedin-icon.png";
 import youtubeIcon from "../assets/youtube-icon.png";
 import logo from "../assets/logo.png";
+import '../App.css';
 // Main component
 const FooterComponent = () => {
   return (

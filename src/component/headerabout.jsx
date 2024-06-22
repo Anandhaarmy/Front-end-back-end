@@ -1,4 +1,5 @@
 import About from "../assets/about.png";
+import '../App.css';
 
 export default function Example() {
   return (

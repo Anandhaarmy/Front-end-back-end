@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import profilePic from "../assets/profile.png";
+import '../App.css';
 
 const AccountSettings = () => {
   const [profile, setProfile] = useState(null);
